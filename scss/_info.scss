@@ -1,6 +1,9 @@
 .info {
     background: $primary-color;
     padding-bottom: 200px;
+    @media (max-width: $f-point) {
+        padding-bottom: 80px;
+    }
     * {
         color: $main-color;
     }
@@ -12,6 +15,10 @@
 
     &__heading {
         font-size: 50px;
+
+        @media (max-width: $f-point) {
+            font-size: 32px;
+        }
     }
 
     &__text {
@@ -24,6 +31,10 @@
         }
         span {
             font-weight: 500;
+        }
+
+        @media (max-width: $f-point) {
+            font-size: 24px;
         }
     }
 
@@ -39,5 +50,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @media (max-width: $f-point) {
+            font-size: 24px;
+            border-radius: 15px;
+            height: 80px;
+        }
     }
 }

@@ -32,7 +32,7 @@ body {
 	max-width: 1352px;
 	margin: 0 auto;
 	overflow: hidden;
-	@media (max-width: 1000px) {
+	@media (max-width: $f-point) {
 		max-width: 100%;
 		padding-left: 50px;
 		padding-right: 50px;
@@ -45,3 +45,4 @@ body {
 @import '_info';
 @import '_accept';
 @import '_buttons';
+@import '_footer';

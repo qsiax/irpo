@@ -1,5 +1,8 @@
 .buttons {
     margin-bottom: 200px;
+    @media (max-width: $f-point) {
+        margin-bottom: 80px;
+    }
     &__container {
     }
 
@@ -30,6 +33,15 @@
         &.primary {
             background: radial-gradient(3817.72% 131.12% at 28.92% 40.67%, rgba(171, 229, 249, 0.88) 0%, #ABE5F9 100%);
             color: $secondary-color;
+        }
+
+        @media (max-width: $f-point) {
+            font-weight: 400;
+            height: 80px;
+            font-size: 28px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            letter-spacing: -1.22px;
         }
     }
 }
