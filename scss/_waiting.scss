@@ -1,0 +1,113 @@
+.waiting {
+    background: $primary-color;
+    padding-bottom: 100px;
+    * {
+        color: $main-color;
+    }
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__heading {
+    }
+
+    &__content {
+        border-radius: 20px;
+        padding: 120px 60px 120px 60px;
+        background: $main-color;
+    }
+
+    &__item-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 160px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        &:nth-child(1) {
+            .waiting__item {
+                &:nth-child(1) {
+                    .waiting__item-icon {
+                        background: url(../source/menu_book.svg);
+                    }
+                }
+                &:nth-child(2) {
+                    .waiting__item-icon {
+                        background: url(../source/favorite.svg);
+                    }
+                }
+                &:nth-child(3) {
+                    .waiting__item-icon {
+                        background: url(../source/groups.svg);
+                    }
+                }
+                &:nth-child(4) {
+                    .waiting__item-icon {
+                        background: url(../source/thumb_up_alt.svg);
+                    }
+                }
+            }
+        }
+        
+        &:nth-child(2) {
+            .waiting__item {
+                &:nth-child(1) {
+                    .waiting__item-icon {
+                        background: url(../source/volunteer_activism.svg);
+                    }
+                }
+                &:nth-child(2) {
+                    .waiting__item-icon {
+                        background: url(../source/assignment_turned_in.svg);
+                    }
+                }
+                &:nth-child(3) {
+                    .waiting__item-icon {
+                        background: url(../source/sentiment_very_satisfied.svg);
+                    }
+                }
+                &:nth-child(4) {
+                    .waiting__item-icon {
+                        background: url(../source/apartment.svg);
+                    }
+                }
+            }
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        * {
+            color: $text-color;
+        }
+    }
+
+    &__item-icon {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 25px;
+    }
+
+    &__item-title {
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: -0.96px;
+        margin-bottom: 20px;
+        text-align: center;
+        max-width: 270px;
+    }
+
+    &__item-text {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: -0.6px;
+        text-align: center;
+        max-width: 270px;
+    }
+}
