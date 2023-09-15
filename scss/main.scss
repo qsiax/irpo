@@ -39,6 +39,12 @@ body {
 	}
 }
 
+.wrapper {
+	background: url(../source/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 @import '_news';
 @import '_directions';
 @import '_waiting';

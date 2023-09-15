@@ -1,5 +1,4 @@
 .directions {
-    background: $primary-color;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
     @media (max-width: $f-point) {
@@ -19,7 +18,13 @@
     }
 
     &__heading {
-        margin-top: 150px;
+        font-size: 48px;
+        font-weight: 600;
+        letter-spacing: -1.44px;
+        color: $text-color;
+        text-align: center;
+        margin-top: 254px;
+        margin-bottom: 100px;
         @media (max-width: $f-point) {
             margin-top: 80px;
         }
@@ -27,7 +32,7 @@
 
     &__item-wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         @media (max-width: $f-point) {
             flex-direction: column;
             .directions__item {
@@ -40,8 +45,7 @@
     &__item {
         border-radius: 20px;
         padding: 40px;
-        background: $main-color;
-        margin-right: 40px;
+        margin-right: 0px;
         cursor: pointer;
         &:last-child {
             margin-right: 0;
@@ -68,10 +72,11 @@
     }
 
     &__item-img {
-        height: 231px;
+        height: 220px;
+        width: 300px;
         border-radius: 20px;
         background: $primary-color;
-        margin-bottom: 55px;
+        margin-bottom: 20px;
         transition: .4s ease;
 
         @media (max-width: $f-point) {
@@ -81,10 +86,10 @@
     }
 
     &__item-title {
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 400;
-        letter-spacing: -0.96px;
-        padding-bottom: 60px;
+        letter-spacing: -0.72px;
+        max-width: 300px;
         transition: .3s ease;
 
         @media (max-width: $f-point) {
