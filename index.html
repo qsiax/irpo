@@ -9,7 +9,7 @@
 <body>
     
 
-    <section class="news">
+    <section class="news" id="news">
         <div class="news__container _container">
             <div class="news__body">
                 <div class="news__heading heading">Новости чемпионата</div>
@@ -35,7 +35,7 @@
     </section>
 
     <div class="wrapper">
-        <section class="directions">
+        <section class="directions" id="directions">
             <div class="directions__container _container">
                 <div class="directions__body">
                     <div class="directions__heading heading">Направления чемпионата</div>
@@ -57,7 +57,7 @@
             </div>
         </section>
     
-        <section class="waiting">
+        <section class="waiting" id="waiting">
             <div class="waiting__container _container">
                 <div class="waiting__body">
                     <div class="waiting__heading heading">Что ожидает вас впереди?</div>
@@ -119,7 +119,7 @@
             </div>
         </section>
     
-        <section class="info">
+        <section class="info" id="info">
             <div class="info__container _container">
                 <div class="info__body">
                     <div class="info__heading heading">Для кого это предназначено?</div>
@@ -132,7 +132,7 @@
         </section>
     
     </div>
-    <section class="accept">
+    <section class="accept" id="accept">
         <div class="accept__container _container">
             <div class="accept__body">
                 <div class="accept__heading heading">Как принять участие?</div>
@@ -165,7 +165,7 @@
         </div>
     </section>
 
-    <section class="buttons">
+    <section class="buttons" id="buttons">
         <div class="buttons__container _container">
             <div class="buttons__body">
                 <div class="buttons__btn default">Оставить заявку</div>
@@ -174,25 +174,26 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer__container _container">
             <div class="footer__body">
-                <div class="footer__logo"></div>
+                <a href="#home">
+                    <div class="footer__logo"></div>
+                </a>
                 <ul class="footer__navigation">
-                    <li><a href="#">Дата начало соревнований</a></li>
-                    <li><a href="#">Как принять участие?</a></li>
-                    <li><a href="#">Для кого это предназначено?</a></li>
-                    <li><a href="#">Что ожидает вас впереди?</a></li>
-                    <li><a href="#">Направления чемпионата</a></li>
-                    <li><a href="#">Новости чемпионата</a></li>
+                    <li><a href="#info">Дата начало соревнований</a></li>
+                    <li><a href="#accept">Как принять участие?</a></li>
+                    <li><a href="#info">Для кого это предназначено?</a></li>
+                    <li><a href="#waiting">Что ожидает вас впереди?</a></li>
+                    <li><a href="#directions">Направления чемпионата</a></li>
+                    <li><a href="#news">Новости чемпионата</a></li>
                 </ul>
                 <div class="footer__bottom">
-                    <div class="footer__copyright">© 2023, АНО ДПО «Институт развития компетенций»</div>
+                    <div class="footer__copyright"></div>
                     <div class="footer__social-wrapper">
-                        <div class="footer__social"></div>
-                        <div class="footer__social"></div>
-                        <div class="footer__social"></div>
-                        <div class="footer__social"></div>
+                        <a href="https://t.me/irposakha14" target="_blank" class="footer__social"></a>
+                        <a href="https://vk.com/irposakha14" target="_blank" class="footer__social"></a>
+                        <a href="https://irposakha14.ru" target="_blank" class="footer__social"></a>
                     </div>
                 </div>
             </div>

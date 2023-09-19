@@ -1,14 +1,14 @@
 .footer {
-    background: $terial-color;
+    background: #DBCCE3;
     * {
-        color: $main-color;
+        color: $text-color;
     }
     &__container {
     }
 
     &__body {
         padding-top: 80px;
-        padding-bottom: 250px;
+        padding-bottom: 100px;
         position: relative;
         display: flex;
 
@@ -18,9 +18,9 @@
     }
 
     &__logo {
-        width: 207px;
-        height: 50px;
-        background: url(../source/logo.png);
+        width: 120px;
+        height: 124px;
+        background: url(../source/logo.svg);
         background-repeat: no-repeat;
         background-size: cover;
         @media (max-width: $f-point) {
@@ -37,7 +37,7 @@
             }
             a {
                 font-size: 24px;
-                font-weight: 300;
+                font-weight: 500;
                 letter-spacing: -0.72px;
                 @media (max-width: $f-point) {
                     font-size: 28px;
@@ -47,12 +47,13 @@
 
         @media (max-width: $f-point) {
             margin-left: 0;
+            margin-bottom: 80px;
         }
     }
 
     &__bottom {
         position: absolute;
-        bottom: 40px;
+        bottom: 20px;
         left: 0;
         width: 100%;
         display: flex;
@@ -92,22 +93,17 @@
             margin-right: 0;
         }
         &:nth-child(1) {
-            background: url(../source/insta.svg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        &:nth-child(2) {
             background: url(../source/telegram.svg);
             background-size: cover;
             background-repeat: no-repeat;
         }
-        &:nth-child(3) {
-            background: url(../source/whatsapp.svg);
+        &:nth-child(2) {
+            background: url(../source/vk.svg);
             background-size: cover;
             background-repeat: no-repeat;
         }
-        &:nth-child(4) {
-            background: url(../source/vk.svg);
+        &:nth-child(3) {
+            background: url(../source/site.svg);
             background-size: cover;
             background-repeat: no-repeat;
         }
